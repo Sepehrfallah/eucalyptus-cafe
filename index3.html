@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestsellers</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+</head>
+
+<body>
+    <div class="contenier-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="img/LOGO CAFE - Made with PosterMyWall.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d1" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Bestsellers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="w-100"></div>
+        <div class="h2 pb-2 mb-4 text-danger border-bottom border-danger d2">
+            Bestsellers
+        </div>
+
+        <div class="w-100"></div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-5 p-3">
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/253161.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Vietnam Coffee
+                                </div>
+                                <div class="col">
+                                    Price : 9.99$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button" onclick="addtoCart('قهوه ویتنام')">Add
+                                        to
+                                        Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/10.020..jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Kenya Coffee
+                                </div>
+                                <div class="col">
+                                    Price : 17.50$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/aroma-expert.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Brazil coffee
+                                </div>
+                                <div class="col">
+                                    Price : 14.50$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-5 p-3">
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/crema-e-aroma.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Colombia coffee
+                                </div>
+                                <div class="col">
+                                    Price : 19.50$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/etiopia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Yemen coffee
+                                </div>
+                                <div class="col">
+                                    Price : 19.99$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/Illy-Dek-Coffee-Bean.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Mexico coffee
+                                </div>
+                                <div class="col">
+                                    Price : 17.50$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-5 p-3">
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/lavazza-italiano-espresoo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Ethiopia Coffee
+                                </div>
+                                <div class="col">
+                                    Price : 17.00$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card gx-4" style="width: 17rem;">
+                        <img src="img/water-mark-shop5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    peru Coffee
+                                </div>
+                                <div class="col">
+                                    Price : 20.00$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card gx-4" style="width: 17rem;">
+                        <img src="img/suerte-lavazza.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    Uganda coffee
+                                </div>
+                                <div class="col">
+                                    Price : 18.50$
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="button">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'FarYas';
+    src: url(../font/Far_Yas.ttf);
+}
+
+@font-face {
+    font-family: 'FarZar';
+    src: url(../font/Far_Zar.ttf);
+}
+
+@font-face {
+    font-family: 'FarDiplomat';
+    src: url(../font/Far_Diplomat.ttf);
+}
+
+body {
+    background-color: #eae1dbbb;
+}
+
+.d1 {
+    direction: ltr;
+    margin-inline-end: 100px;
+}
+
+.d2 {
+    text-align: center;
+}
+
+.d3 {
+    direction: ltr;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: azure;
+    mix-blend-mode: multiply;
+}
