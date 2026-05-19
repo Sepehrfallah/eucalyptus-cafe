@@ -24,7 +24,7 @@ A modern, responsive, and minimalist front-end web project for Eucalyptus Cafe, 
 
 The project follows a standard production-ready folder architecture with relative path linkages:
 
-`text
+```text
 ├── 📁 CSS/                 # Custom styling decoupled per page
 │   ├── 📄 style1.css       # Specific styles for Home Page (index)
 │   └── 📄 style2.css       # Specific styles for Products/Menu (index3)
